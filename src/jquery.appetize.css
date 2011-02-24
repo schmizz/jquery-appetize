@@ -1,0 +1,3 @@
+.passepartout { overflow:hidden; border:1px solid #efefef; }
+ul.appetizers { margin: 0; padding: 0; list-style-type: none; position: relative; z-index: 1; list-style-position: inside; }
+ul.appetizers li { margin: 0; padding: 0; overflow: hidden; float: none; border-top:1px solid #ccc; padding: 5px 10px 4px; }

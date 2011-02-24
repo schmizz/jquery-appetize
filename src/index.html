@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de_DE" lang="de">
+<head>
+	<title>jquery.appetize.js</title>
+	<link rel="stylesheet" href="jquery.appetize.css" type="text/css"/>
+	<script type="text/javascript" src="jquery-1.3.2.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="jquery.appetize.js" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('ul.appetizers').appetize({
+				'interval' : 5000
+			});
+		});
+	</script>
+	<style type="text/css">
+		html { height:100%; margin:0 0 1px; padding:0; }
+		body { height:100%; margin:0 0 1px; font-size:100.01%; font:14px/20px Georgia, Palatino, Utopia, "Times New Roman", serif; color:#333; }
+	</style>
+</head>
+
+<body>
+	<div style="width:200px; margin:20px;">
+		<h1>Appetizers</h1>
+		<div class="passepartout">
+			<ul class="appetizers">
+				<li>Test1</li>
+				<li>Test2</li>
+				<li>Test3</li>
+				<li>Test4</li>
+				<li>Test5</li>
+				<li>Test6</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
