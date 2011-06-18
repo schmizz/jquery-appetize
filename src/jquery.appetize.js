@@ -34,7 +34,6 @@
 				
 				// Reset position
 				if (current == length) {
-//					debug('reset at:'+current);
 					current = 0;
 					$this.css('top', 0);
 				}
